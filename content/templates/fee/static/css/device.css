@@ -1,0 +1,112 @@
+#by{
+	overflow-y: hidden;
+	text-align: center;
+}
+.navbar{
+	margin:0;
+}
+#demo-frame{
+    height:100%;
+}
+.demo-frame{
+	overflow: visible;
+	position: relative;
+	z-index: 50;
+	width: 100%;
+}
+.demo-button{
+    padding-left: 100px;
+}
+.demo-button>li>a{
+    padding: 10px 2px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.icon-monitor,.icon-tablet,.icon-mobile-1,.icon-mobile-2,.icon-mobile-3 {
+	width:30px;
+	height: 20px;
+}
+.icon-monitor {
+	background-image:url(../img/device_ico.png);
+	background-position:0 0;
+	background-repeat:no-repeat;
+}
+.icon-tablet {
+	background:url(../img/device_ico.png) no-repeat -25px 0;
+}
+.icon-mobile-1 {
+	background:url(../img/device_ico.png) no-repeat -55px 0;
+}
+.icon-monitor:hover,.icon-monitor.active {
+	background-position:0 -26px;
+}
+.icon-tablet:hover,.icon-tablet.active {
+	background-position:-25px -26px;
+}
+.icon-mobile-1:hover,.icon-mobile-1.active {
+	background-position:-55px -26px;
+}
+.icon-mobile-2 {
+	background:url(../img/device_ico.png) no-repeat -85px 0;
+}
+.icon-mobile-3 {
+	background:url(../img/device_ico.png) no-repeat -115px 0;
+}
+.icon-mobile-2:hover,.icon-mobile-2.active {
+	background-position:-85px -26px;
+}
+.icon-mobile-3:hover,.icon-mobile-3.active {
+	background-position:-115px -26px;
+}
+.tablet-width {
+	height: 1249px !important;
+	margin:0 auto;
+	padding:175px 100px 115px 100px;
+	width: 985px;
+	margin-top:40px;
+	margin-bottom:40px;
+	background:url(../img/bg-mob.png) no-repeat 0 0;
+}
+.tablet-width iframe {
+	height:960px !important;
+}
+.mobile-width {
+	height: 968px !important;
+	margin:40px auto;
+	padding: 165px 115px 100px 100px;
+	width: 1256px;
+	background:url(../img/bg-mob.png) no-repeat 0 -1249px;
+}
+.mobile-width iframe {
+	height:704px !important;
+}
+.mobile-width-2 {
+	height: 744px !important;
+	margin:0 auto;
+	padding:125px 25px 159px 25px;
+	width: 387px;
+	margin-top:40px;
+	background:url(../img/bg-mob.png) no-repeat 0 -2217px;
+}
+.mobile-width-2 iframe {
+	height:416px !important;
+}
+.mobile-width-3 {
+	height: 370px !important;
+	margin:0 auto;
+	padding:45px 115px 69px 105px;
+	width: 717px;
+	margin-top:40px;
+	background:url(../img/bg-mob.png) no-repeat -387px -2217px;
+}
+.mobile-width-3 iframe {
+	height:256px !important;
+}
+@media (max-width: 720px){
+	.navbar-text{
+		display: none;
+	}
+	.demo-button{
+		display: none;
+	}
+}

@@ -1,0 +1,62 @@
+.content .meta-user-div{overflow:hidden;margin-bottom:20px;}
+.meta-user{float:left;overflow:hidden;padding:10px;width:15%;background:#FFF;}
+.meta-user ul li a:hover{border:1px dashed #03a9f4;}
+.meta-user ul li a{position:relative;display:inline-block;margin:5px 0;padding:5px 15px;width:100%;border:1px dashed #ccc;text-align:center;text-decoration:none;transition:color .3s;}
+.user-content{float:right;overflow:hidden;margin-bottom:20px;width:84%;}
+.user-content .user-box{overflow:hidden;margin-bottom:10px;padding:5px 15px 15px 15px;background:#FFF;}
+.user-content h2{padding:10px 15px;border-bottom:1px solid #ddd;border-top-right-radius:3px;border-top-left-radius:3px;background:#fff;font-size:16px;}
+.user-box .user-ul{overflow:hidden;margin-left:-1.35%;height:auto;}
+.user-box .user-ul li{float:left;box-sizing:border-box;margin-left:1.35%;width:23.65%;color:#FFF;}
+.user-ul ul li .user-fa{float:left;margin:5px 15px;font-size:40px;}
+.user-ul ul li .user-num{float:right;margin:15px;text-align:right;font-size:30px;}
+.user-ul ul li .num-more{clear:both;}
+.user-ul ul li .num-more a{display:block;padding:5px 15px;background-color:rgba(0,0,0,.15);color:rgba(255,255,255,.85);}
+.user-box .user-ul li:nth-child(1){background-color:#0bacd3;}
+.user-box .user-ul li:nth-child(2){background-color:#ea4c89;}
+.user-box .user-ul li:nth-child(3){background-color:#ffb848;}
+.user-box .user-ul li:nth-child(4){background-color:#5db8f8;}
+.user-box h3{margin:10px 0;padding:0 10px;border-left:5px solid #03a9f4;background-color:#f6f6f6;font-weight:800;font-size:16px;line-height:40px;}
+.user-box .userl-list{overflow:hidden;margin-bottom:5px;}
+.userl-list .userl-list-box{overflow:hidden;margin:10px;}
+.userl-list .userl-list-box h1{float:left;overflow:hidden;width:70%;text-overflow:ellipsis;white-space:nowrap;font-weight:400;font-size:16px;}
+.userl-list .userl-list-box .userl-list-btn{float:right;padding:0 5px;border:1px solid #e8e8e8;border-radius:3px;color:#9a9a9a;}
+.userl-list .userl-list-box span{float:left;margin-right:5px;padding-right:5px;border-right:1px solid #ddd;}
+.user-content .user-box .pagination{text-align:center;}
+.user-content .user-box .pagination span{display:inline-block;margin-bottom:5px;padding:0 20px;height:33px;border-color:#F6F6F6;background-color:#5298ff;color:#fff;vertical-align:middle;line-height:33px;cursor:not-allowed;}
+.user-content .user-box .pagination a{display:inline-block;margin-bottom:5px;padding:0 20px;height:33px;border:1px solid #e2e2e2;border-color:#F6F6F6;background-color:#fff;color:#8e8e8e;vertical-align:middle;line-height:33px;}
+.user-box #modify{padding:15px;}
+.user-box .form-images{position:relative;margin-bottom:20px;width:100%;max-width:100%;text-align:center;}
+.user-box .form-images img{padding:3px;width:150px;height:150px;border:1px solid #ddd;border-radius:50%;transition:all 2s;}
+.user-box .form-images img:hover{transform:rotate(360deg);}
+.user-box .form-gos{overflow:hidden;margin-bottom:10px;width:100%;text-align:left;}
+.form-gos input[disabled]{border:none;background-color:#fff!important;box-shadow:none!important;color:#333;}
+.form-gos label{float:left;margin-right:15px;font-weight:600;line-height:36px;}
+.form-gos .form-con{padding:6px 12px;width:80%;height:34px;border:1px solid #ccc;border-radius:4px;background-color:#fff;background-image:none;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,.075);box-shadow:inset 0 1px 1px rgba(0,0,0,.075);color:#555;font-size:14px;line-height:1.42857143;-webkit-transition:border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;-o-transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+#qq_login{cursor: pointer;padding: 6px 10px;color: #fff;background-color: #2CAFFB;border-radius: 2px;border: 1px solid transparent;text-decoration: none;}
+#qq_login_jiebang{cursor: pointer;padding: 6px 10px;color: #fff;background-color: #ec7764;border-radius: 2px;border: 1px solid transparent;text-decoration: none;}
+
+#modify .hide-ps,#modify .hide-xg{display:none;}
+.tijiao-token{text-align:center;}
+.tijiao-token .xgzl{display:inline-block;padding:5px 10px;border-radius:2px;background-color:#2CAFFB;color:#fff;text-decoration:none;line-height:22px;cursor:pointer;}
+.tijiao-token #update-submit{margin-bottom:0;padding:4px 16px;border:1px solid transparent;border-radius:2px;background-color:#2fd27f;background-image:none;color:#fff;text-align:center;white-space:nowrap;line-height:22px;cursor:pointer;}
+.tijiao-token .qxxg{padding:5px 16px;border:1px solid #777;border-radius:2px;background-color:#fff;line-height:22px;cursor:pointer;}
+#modify textarea[disabled]{border:none;background-color:#fff!important;box-shadow:none!important;color:#333;}
+#contentdiv_c{margin-bottom:10px;color:#f44336;text-align:center;}
+.user-box .user-commbody{padding:15px;}
+.user-commbody .user-default{margin-bottom:10px;border:1px solid #ddd;border-radius:3px;background:#fff;}
+.user-commbody .user-default .user-biaoti{padding:10px 15px;border-bottom:1px solid #ddd;border-top-right-radius:3px;border-top-left-radius:3px;background:#f5f5f5;color:#333;}
+.user-biaoti span{margin-right:10px;color:#888;}
+.form-members .members-title{margin-bottom:10px;padding:6px 12px;width:100%;height:34px;border:1px solid #ccc;border-radius:3px;background-color:#fff;background-image:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);color:#555;font-size:14px;line-height:1.42857143;transition:border-color ease-in-out .15s,box-shadow ease-in-out .15s;}
+.form-members #members-textarea{width:100%;height:560px;}
+.form-members #mceu_12{margin-bottom:10px;}
+.form-members #members-select{float:left;padding:6px 12px;width:20%;height:34px;border:1px solid #ccc;background-color:#fff;background-image:none;box-shadow:inset 0 1px 1px rgba(0,0,0,.075);color:#555;font-size:14px;line-height:1.42857143;}
+.form-members input[type=button]{float:right!important;display:inline-block;padding:4px 16px;border:1px solid transparent;border-radius:2px;background:#2CAFFB;color:#fff;line-height:22px;cursor:pointer;}
+.form-members-v{ overflow: hidden; margin-bottom: 10px;}
+.form-members #contentdiv_c{float: left;}
+@media only screen and (max-width:767px){.meta-user{margin-bottom:10px;width:100%;}
+.form-gos .form-con,.user-content{width:100%;}
+.meta-user ul li{float:left;margin:5px;}
+.user-ul ul li .user-fa,.user-ul ul li .user-num,.userl-list .userl-list-box span{display:none;}
+.user-box .form-gos textarea{height:200px;}
+.form-members #members-select{width:50%;}
+}

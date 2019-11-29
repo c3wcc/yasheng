@@ -1,0 +1,7 @@
+/* 简爱 文章分享代码 暂支持 QQ空间 QQ好友 腾讯微博 ja_share.css 20140913 1.0 http://blog.gouji.org */
+.ja_share i {display: inline-block;width:16px;height:16px;}
+.ja_share_qz{background:url(icon.png) no-repeat 0px -48px;}
+.ja_share_qq{background:url(icon.png) no-repeat 0px 0px;}
+.ja_share_twb{background:url(icon.png) no-repeat 0px -64px;}
+[ja_share]{cursor:pointer;}
+

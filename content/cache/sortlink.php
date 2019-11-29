@@ -1,0 +1,1 @@
+<?php exit;//a:1:{i:1;a:4:{s:7:"linknum";s:1:"5";s:13:"linksort_name";s:12:"友情链接";s:11:"linksort_id";i:1;s:5:"taxis";i:0;}}

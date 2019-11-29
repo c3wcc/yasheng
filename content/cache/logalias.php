@@ -1,0 +1,1 @@
+<?php exit;//a:6:{i:21;s:8:"archives";i:1;s:5:"links";i:28;s:3:"tag";i:29;s:6:"reader";i:30;s:7:"contact";i:55;s:3:"ggw";}

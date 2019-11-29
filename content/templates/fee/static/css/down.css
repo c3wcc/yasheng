@@ -1,0 +1,99 @@
+body{
+        background: #ecedf0 url(../img/bj.png) fixed;
+    background-repeat: repeat;
+}
+.container {
+    padding: 0;
+    position: relative;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    padding-right: 0;
+    top: 0;
+}
+.content-wrap {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.content-wrap {
+    width: 100%;
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.panel{
+    border-radius:0;
+    border: none;
+}
+.panel-primary>.panel-heading{
+    border-radius:0
+}
+.panel>a>img{
+    
+width: 100%;
+    
+border-radius: 0;
+}
+.panel-body{
+    padding: 20px;
+}
+.plus_l>ul{
+    
+padding: 0;
+}
+.plus_l>ul>li{padding: 5px 0;list-style: none;background: url(../img/yuanlist.gif) no-repeat;padding-left: 25px;background-position: 0 center;color: #828282;font-weight: 100;font-size: 12px;}
+.plus_r {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    position: absolute;
+    right: 35px;
+    top: 60px;
+    display: block;
+}
+.plus_r>img{
+    
+width: 100%;
+}
+.btn{
+    margin-right: 5px;
+    border-radius: 0;
+    border: none;
+}
+.btn-xs {
+    padding: 0px 5px;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 5px;
+}
+.panel-body .btn span {
+    background: #fff;
+    color: #696d71;
+    padding: 2px 10px;
+    font-size: 12px;
+    border-radius: 50px;
+}
+
+
+@media (max-width: 720px){
+    .panel-body{
+        padding:15px;
+    }
+    .navbar-text{
+        display:none;
+    }
+    .plus_r{
+        display:none;
+    }
+   .panel>a>img{
+        display:none;
+    }
+    .btn{
+        width:100%;
+        margin: 5px 0;
+        padding: 10px;
+    }
+}
